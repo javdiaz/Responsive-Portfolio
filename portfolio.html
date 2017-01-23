@@ -1,72 +1,77 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-us">
+
 <head>
-	<title>Javi Diaz Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<meta charset="utf-8">
+  <meta charset="UTF-8">
+ <title>About | Javi Diaz</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
-<!--Header element and navifgtion element-->
-	<div class="top">
-		<header>
-			<h1><a href="index.html">Javi Diaz</a></h1>
-		</header>
-			<nav class="mainmenu">
-					<ul>
-						<li><a href="index.html">About</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-			</nav>
-		</div>
-<!--Middle Element, Contains the divs for the portfolio section and the connect with me section-->
-	<div class="middle">
-		<div class="portfolio">
-			
-			<h1>Portfolio</h1>
-				
-				<div class="projects">
-					<div id="imageone">
-						<img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman_image">
-						<h2><span>Hangman</span></h2>
-					</div>
+<div class="wrapper"> <!-- sticky footer start -->
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Javi Diaz</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-					<div id="imagetwo">
-						<img src="assets/images/technics-q-c-640-480-2.jpg" alt="rpg_Image">
-						<h2><span>RPG Games</span></h2>
-					</div>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
 
-					<div id="imagethree">
-						<img src="assets/images/technics-q-c-640-480-5.jpg" alt="trivia_Image">
-						<h2><span>Trivia Game</span></h2>
-					</div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
 
-					<div id="imagefour">
-						<img src="assets/images/technics-q-c-640-480-7.jpg" alt="rutgers_widget_mage">
-						<h2><span>Rutgers Info Widget</span></h2>
-					</div>	
+        <h3>Hangman</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
 
-					<div id="imagefive">
-					<img src="assets/images/technics-q-c-640-480-9.jpg" alt="rps_image">
-					<h2><span>Rock Paper Scissors</span></h2>
-					</div>
-				</div>
-		</div>
-<!--Connect Element, connects to Linked In, Stack Overflow, and Git Hub -->
-	<div class="connect">
-			<h2>Connect with Me</h2>
-				<ul>
-					<li class="button"><a href="https://github.com/javdiaz" target="_blank"><img src="assets/images/github_square_black-128.png" alt="Github"></a></li>
-					<li class="button"><a href="https://www.linkedin.com/in/javier-diaz-84342714" target="_blank"><img src="assets/images/linkedin_square_color-128.png" alt="Linked in"></a></li>
-					<li class="button"><a href="http://stackoverflow.com/users/7294372/javdiaz" target="_blank"><img src="assets/images/stackoverflow.png" alt="Stack Overflow"></a></li>
-				</ul>
-	</div>
-	</div>
-<!--Footer Element and copyright notice -->	
-	<footer>
-		<p><a href="https://en.wikipedia.org/wiki/Copyright_infringement" target="_blank">&copy; Copyright 2017 Javi Diaz</a></p>
-	</footer>
-	
+        <h3>RPG Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+
+        <h3>Rutgers Info Widget</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+        <h3>Rock Paper Scissors</h3>
+      </div>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="https://github.com/javdiaz" target="_blank"><img src="assets/images/github_square_black-128.png" class="social" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/javier-diaz-84342714" target="_blank"><img src="assets/images/linkedin_square_color-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="http://stackoverflow.com/users/7294372/javdiaz" target="_blank"><img src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+
+  <div class="push"></div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <a href="https://en.wikipedia.org/wiki/Copyright_infringement" target="_blank" id="footercopyright" />&copy; Copyright 2017 Javi Diaz
+    </div>
+  </footer>
 </body>
+
 </html>
