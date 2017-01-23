@@ -1,0 +1,259 @@
+
+html {
+	height: 100%;
+}
+
+h1, h2, h3 {
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+
+p {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+header {
+	background: #4aaaa5;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	float: left;
+	padding: 30px;
+	width: 141px;
+	margin-left: 200px;
+	margin-right: 600px;
+	flex: 0 0 auto;
+}
+
+header a {
+	text-decoration: none;
+	color: #fff;
+}
+
+nav {
+	float: left;
+}
+
+footer {
+	text-align: center;
+	background-color: #666666;
+	color: #fff;
+	padding: 40px;
+	clear: both;
+}
+
+ footer p {
+ 	font-size: 14px;
+ }
+
+ footer a {
+ 	text-decoration: none;
+ 	color: #fff;
+ 	flex:0 0 auto;
+ }
+
+ input {
+ 	display: block;
+ 	margin-bottom: 20px;
+ 	width: 99%;
+ 	height: 30px;
+ 	margin-top: 14px;
+}
+
+label {
+	font-family: helvetica;
+	font-size: 16px;
+	color: #777777;
+	padding-bottom: 10px;
+}
+
+.mainmenu {
+	float: left;
+	margin: 30px 0 0 0;
+	padding-right: 10px;
+	width: 303px;
+
+}
+
+.mainmenu a {
+	text-decoration: none;
+	font-family: helvetica;
+	font-size: 20px;
+	color: #777777;
+}
+
+.mainmenu a:hover { 
+    background-color: #4aaaa5;
+    color: #fff;
+}
+
+.mainmenu li {
+	display: inline;
+	list-style: none;
+	padding-right: 30px;
+}
+
+.middle {
+	clear: both;
+	overflow: auto;
+	padding-bottom: 30px;
+	border-top: 3px solid #cccccc;
+	border-bottom: 8px #4aaaa5 solid; 
+	background-image: url('../images/cheap_diagonal_fabric.png');
+	background-repeat: repeat;
+	flex: 1 0 auto;
+}
+
+.aboutme, .contact, .portfolio {
+	float: left;
+	background-color: #fff;
+	width: 650px;
+	padding: 0 30px 30px 30px;
+	margin-top: 60px;
+	margin-left: 200px;
+	margin-right: 60px;
+	border: 1px solid #cccccc;
+}
+
+.projects {
+	position: relative;
+	text-align: center;
+	overflow: auto;
+}
+
+.aboutme img {
+	float: left;
+	padding: 30px 20px 10px 0;
+}
+
+.aboutme h1, .contact h1, .portfolio h1 {
+	color:#4aaaa5;
+	font-size: 30px;
+	font-weight: bold;
+	border-bottom: 2px solid #777;
+	padding: 30px 0 30px 10px;
+	border-bottom: 1px solid #cccccc;
+}
+
+.aboutme p, .contact p {
+	font-size: 18px;
+	padding: 24px 10px 0;
+	line-height: 30px;
+	color: #777777;
+}
+
+.connect {
+	float: left;
+	width: 270px;
+	text-align: center;
+	margin: 60px 0 0 0;
+	border: 1px solid #cccccc;
+	padding: 0 20px 20px 20px;
+	background-color: #fff;
+}
+
+.connect h2 {
+	border-bottom: 1px solid #cccccc;
+	padding: 20px 0 16px 0;
+	color:#4aaaa5;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.connect img {
+	float: left;
+	margin: 16px 0 0 0;
+}
+
+.button img {
+	width: 90px;
+	height: 90px;
+}
+
+ .projects {
+ 	overflow: auto;
+ 	text-align: center;
+ }
+
+.portfolio img {
+	float: left;
+	width: 302px;
+	padding: 30px 10px 0 10px;
+}
+
+.contact h1 {
+	margin-bottom: 30px;
+}
+
+#artlink {
+	text-decoration: none;
+	font-weight: bold;
+	color: #555;
+}
+
+#messagefield {
+	display: block;
+ 	width: 99%;
+ 	height: 200px;
+ 	margin-top: 14px;
+ 	margin-bottom: 20px;
+}
+
+#submissionbutton {
+	width: 20%;
+	padding: 8px 20px 20px 20px;
+	background-color: #4aaaa5;
+	color: #fff;
+	font-size: 14px;
+}
+
+#imageone, #imagetwo, #imagethree, #imagefour, #imagefive {
+	position: relative;
+	float: left;
+	overflow: auto;
+}
+
+#imageone h2, #imagetwo h2, #imagethree h2, #imagefour h2, #imagefive h2 {
+	position: absolute;
+	float: left;
+	font-weight: bold;
+	width: 302px;
+	margin-top: 55%;
+	margin-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #4aaaa5;
+	color: #fff;
+	font-size: 20px;
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
