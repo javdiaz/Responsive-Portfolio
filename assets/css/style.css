@@ -10,7 +10,6 @@ body {
   box-sizing: border-box;
 }
 
-
 /*general*/
 
 .container {
@@ -305,6 +304,8 @@ nav a:hover,
 #footercopyright:hover {
   background-color: #5E7F7E;
 }
+
+/*Responsive Portfolio settings*/
 
 
 
