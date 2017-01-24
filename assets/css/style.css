@@ -7,13 +7,13 @@ body {
 }
 
 * {
-  box-sizing: border-box;
-}
+  box-sizing: /*content-box;*/ border-box;
+} /*makes all elements size the same using border-box (padding and border are included as part of the content)*/
 
 /*general*/
 
 .container {
-  clear: both;
+  clear: both; /*(clears any float elements)*/
   margin: 0 auto;
   width: 100%;
   max-width: 960px;
@@ -28,7 +28,7 @@ p {
 
 p:last-child {
   margin-bottom: 0;
-}
+} /* Pseudo selector, clears styles from a specific selector in a group of selectors, I.E. this will remove the margin from the last paragraph in a multiparagraph element*/
 
 h1,
 h2,
@@ -55,9 +55,9 @@ h3 {
 
 #masthead {
   position: fixed;
-  /*z-index: 99;*/
+  z-index: 99; /*specifies the the stack order, this places the masthead in front of all the other elements, used when scrolling */
   margin: 0 0 30px;
-  overflow: auto;
+  overflow: auto; 
   width: 100%;
   color: #fff;
   background: #fff;
@@ -95,7 +95,8 @@ nav a {
 
 nav a:first-child {
   border-left: 0 none;
-}
+} /* Pseudo selector, clears styles from a specific selector in a group of selectors, in this example does not place the | before the About link*/
+
 
 
 /*footer*/
@@ -191,7 +192,7 @@ h3,
 }
 
 .work h3 {
-  position: absolute;
+  position: absolute; 
   bottom: 20px;
   margin-bottom: 0;
   padding: 15px;
@@ -254,8 +255,6 @@ input[type=submit] {
 }
 
 /*sticky footer stuff*/
-
-
 /*http://ryanfait.com/html5-sticky-footer/*/
 
 * {
@@ -278,10 +277,6 @@ footer,
 .push {
   height: 105px;
 }
-
-
-/*end sticky footer stuff*/
-
 
 /*start hover stuff*/
 
