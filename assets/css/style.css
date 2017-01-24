@@ -310,13 +310,16 @@ nav a:hover,
 @media screen and (max-width: 980px) {
    
     .container {
-      width: 70%;
+      width: 80%;
     }
     .main-section {
-      width: 51%;
+      width: 60%;
       max-width: 100%;
     }
     .auth-image {
+      width: 100%;
+    }
+    .work {
       width: 100%;
     }
 }
@@ -331,7 +334,7 @@ nav a:hover,
       max-width: 100%;
     }
     .auth-image {
-      width: 50%;
+      width: 55%;
     }
     .sidebar {
       width: 100%;
@@ -360,8 +363,21 @@ nav a:hover,
     .work {
       width: 100%;
     }
-    
 
+   #logo {
+    position: static;
+    width: 100%;
+  
+   }
+   nav {
+    margin: 12px auto;
+  
+   }
+
+   nav a {
+    padding-right: 70px;
+   }
+    
 }
 
 
