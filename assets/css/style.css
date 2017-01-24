@@ -307,8 +307,62 @@ nav a:hover,
 
 /*Responsive Portfolio settings*/
 
+@media screen and (max-width: 980px) {
+   
+    .container {
+      width: 70%;
+    }
+    .main-section {
+      width: 51%;
+      max-width: 100%;
+    }
+    .auth-image {
+      width: 100%;
+    }
+}
 
 
+@media screen and (max-width: 768px) {
+    .container {
+      width: 89%;
+    }
+    .main-section {
+      width: 100%;
+      max-width: 100%;
+    }
+    .auth-image {
+      width: 50%;
+    }
+    .sidebar {
+      width: 100%;
+      max-width: 100%;
+      float: left;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .container {
+      width: 89%;
+    }
+    .main-section {
+      width: 100%;
+      max-width: 100%;
+    }
+    .auth-image {
+      width: 100%;
+    }
+    .sidebar {
+      width: 100%;
+      max-width: 100%;
+      float: left;
+    }
+    .work {
+      width: 100%;
+    }
+    
+
+}
 
 
 
