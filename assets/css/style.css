@@ -19,7 +19,7 @@ body {
   max-width: 960px;
 }
 
-h1,
+h1, /*lines are listed horizontally for easier reading, the following would also work h1,h2,h3,etc*/
 h2,
 h3,
 p {
@@ -81,6 +81,7 @@ h3 {
 nav {
   float: right;
   margin-top: 25px;
+  text-decoration: none;
 }
 
 nav a {
@@ -362,15 +363,14 @@ nav a:hover,
    #logo {
     position: static;
     width: 100%;
-  
    }
+
    nav {
     margin: 12px auto;
-  
    }
 
    nav a {
-    padding-right: 70px;
+    padding-right: 82px;
    }
     
 }
